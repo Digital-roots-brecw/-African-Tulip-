@@ -1,5 +1,4 @@
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -93,6 +92,30 @@
     h2 {
       color: #d2691e;
     }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 10px;
+        padding: 15px;
+        border-width: 3px;
+      }
+
+      .college-name {
+        font-size: 22px;
+      }
+
+      .cse-center {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .images img {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -137,9 +160,10 @@
     <li><strong>Air Purifier:</strong> Helps in absorbing carbon dioxide and releasing oxygen.</li>
     <li><strong>CO₂ Emission Note:</strong> Although it provides good shade, the African Tulip Tree has been observed to release certain volatile compounds and can emit more CO₂ at night compared to native species. Prolonged sitting directly under the tree, especially in humid climates, may be uncomfortable for sensitive individuals.</li>
   </ul>
-<footer style="text-align: center; font-size: 14px; color: #666; margin-top: 50px;">
-  <em>Akhila Jeripothula, II CSE A</em>
-</footer>
+
+  <footer style="text-align: center; font-size: 14px; color: #666; margin-top: 50px;">
+    <em>Akhila Jeripothula, II CSE A</em>
+  </footer>
 
 </body>
 </html>
